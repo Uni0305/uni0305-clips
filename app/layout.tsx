@@ -1,6 +1,11 @@
+import { Metadata } from "next";
 import Footer from "../components/Footer";
 import Navigator from "../components/Navigator";
 import "./globals.css";
+
+export const metadata: Metadata = {
+  title: "Uni0305 Web Clips",
+};
 
 export default function RootLayout({
   children,
